@@ -1,0 +1,14 @@
+{
+  "name": "easy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "jest": "^27.4.5"
+  },
+  "scripts": {
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && yarn jest --runInBand --watch --config ./jest.config.js"
+  }
+}
