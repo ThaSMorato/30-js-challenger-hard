@@ -10,7 +10,7 @@ const lengthRule = (name) => {
 const oneOfEachWithLettersFirstAndNoUnderscoreLastRule = (name) => {
   if (!/^[a-zA-Z]+\d*_+[a-zA-Z]*_*\d+[a-zA-Z]*$/.test(name))
     throw new Error(
-      "Need to contain one of each of the following characters: letter, number, underscore"
+      "Invalid name, must start with letter, cant finish with underscore and need to hace both and number"
     );
 };
 
